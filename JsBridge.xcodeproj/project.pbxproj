@@ -16,6 +16,7 @@
 		CF9832891D428BB30058D774 /* JsBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9832881D428BB30058D774 /* JsBridgeUITests.swift */; };
 		CF9832971D42907A0058D774 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9832961D42907A0058D774 /* QueryParser.swift */; };
 		CF9832991D4292D80058D774 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9832981D4292D80058D774 /* SuccessViewController.swift */; };
+		CF98329B1D4470CA0058D774 /* ParameterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF98329A1D4470CA0058D774 /* ParameterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CF98328A1D428BB30058D774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF9832961D42907A0058D774 /* QueryParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryParser.swift; sourceTree = "<group>"; };
 		CF9832981D4292D80058D774 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		CF98329A1D4470CA0058D774 /* ParameterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			children = (
 				CF98327D1D428BB30058D774 /* JsBridgeTests.swift */,
 				CF98327F1D428BB30058D774 /* Info.plist */,
+				CF98329A1D4470CA0058D774 /* ParameterTest.swift */,
 			);
 			path = JsBridgeTests;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF98327E1D428BB30058D774 /* JsBridgeTests.swift in Sources */,
+				CF98329B1D4470CA0058D774 /* ParameterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +496,7 @@
 				CF98328F1D428BB30058D774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9832901D428BB30058D774 /* Build configuration list for PBXNativeTarget "JsBridgeTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				CF9832921D428BB30058D774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF9832931D428BB30058D774 /* Build configuration list for PBXNativeTarget "JsBridgeUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				CF9832951D428BB30058D774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
