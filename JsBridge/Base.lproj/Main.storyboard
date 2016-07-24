@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JsBridge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xhp-3p-ZIG">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xhp-3p-ZIG" secondAttribute="trailing" id="5c1-Xv-RK2"/>
+                            <constraint firstItem="xhp-3p-ZIG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OUr-XO-bk5"/>
+                            <constraint firstItem="xhp-3p-ZIG" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="Psg-uq-O9c"/>
+                            <constraint firstItem="xhp-3p-ZIG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="h1a-gM-dj3"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="webView" destination="xhp-3p-ZIG" id="RAi-xJ-bYD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="224" y="339"/>
+        </scene>
+        <!--Success View Controller-->
+        <scene sceneID="E6w-7V-XTg">
+            <objects>
+                <viewController storyboardIdentifier="SuccessViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZDN-eq-oi6" customClass="SuccessViewController" customModule="JsBridge" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F2r-Ht-Sdn"/>
+                        <viewControllerLayoutGuide type="bottom" id="EZT-sc-pfe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="afS-y9-IfF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Success" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2t-fq-Xnw">
+                                <rect key="frame" x="113" y="273" width="95" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.83597868702739886" blue="0.60325420846433686" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="o2t-fq-Xnw" firstAttribute="centerX" secondItem="afS-y9-IfF" secondAttribute="centerX" id="3kx-8U-CmO"/>
+                            <constraint firstItem="o2t-fq-Xnw" firstAttribute="leading" secondItem="afS-y9-IfF" secondAttribute="leadingMargin" constant="97" id="dk2-nY-mcT"/>
+                            <constraint firstItem="o2t-fq-Xnw" firstAttribute="centerY" secondItem="afS-y9-IfF" secondAttribute="centerY" id="kHf-RC-0VI"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Wf-z7-Vxg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="629" y="339"/>
+        </scene>
+    </scenes>
+</document>
